@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/spacing_normal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/image_actor_avatar" android:layout_width="100.0dip" android:layout_height="100.0dip" android:src="@drawable/photo_woman" android:layout_alignParentTop="true" app:shapeAppearance="@style/AppTheme.Rounded" />
+    <TextView android:textAppearance="@style/TextActressName" android:id="@id/text_actor_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_x_small" android:layout_below="@id/image_actor_avatar" android:layout_toStartOf="@id/text_actor_count" android:layout_alignParentStart="true" />
+    <TextView android:textAppearance="@style/TextActressCount" android:id="@id/text_actor_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_x_small" android:layout_below="@id/image_actor_avatar" android:layout_alignBaseline="@id/text_actor_name" android:layout_alignParentEnd="true" />
+</RelativeLayout>

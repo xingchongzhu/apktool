@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/gray_42" android:padding="@dimen/spacing_normal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/dialog_title_toolbar" layout="@layout/layout_toolbar_text_title" />
+    <WebView android:id="@id/dialog_web_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <Button android:layout_gravity="end" android:id="@id/dialog_negative_button" android:layout_width="@dimen/dialog_button_width" android:layout_height="@dimen/dialog_button_height" android:layout_marginTop="@dimen/spacing_normal" android:text="@string/dialog_button_close" android:textAllCaps="true" style="@style/AppTheme.Dialog.Button.Negative" />
+</LinearLayout>

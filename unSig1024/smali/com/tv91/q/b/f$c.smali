@@ -1,0 +1,28 @@
+.class public Lcom/tv91/q/b/f$c;
+.super Ljava/lang/Object;
+.source "State.java"
+
+# interfaces
+.implements Lcom/tv91/q/b/f;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/tv91/q/b/f;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "c"
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

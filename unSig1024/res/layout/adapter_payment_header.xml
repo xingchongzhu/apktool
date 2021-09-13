@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/color_primary" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.Title.Large" android:id="@id/text_payment_method" android:paddingTop="@dimen/spacing_large" android:paddingBottom="@dimen/spacing_normal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/spacing_large" android:paddingEnd="@dimen/spacing_large" android:layout_toStartOf="@id/text_payment_method_manual" />
+    <TextView android:textAppearance="@style/TextAppearance.Small" android:id="@id/text_payment_method_manual" android:paddingTop="@dimen/spacing_large" android:paddingBottom="@dimen/spacing_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/payment_method_manual" android:layout_alignBottom="@id/text_payment_method" android:paddingStart="@dimen/spacing_large" android:paddingEnd="@dimen/spacing_large" android:layout_alignParentEnd="true" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="@color/gray_42" android:paddingTop="@dimen/spacing_x_small" android:paddingBottom="@dimen/spacing_x_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/spacing_large" android:paddingEnd="@dimen/spacing_x_small"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tv91.features.shared.widget.DrawableTextView android:gravity="center" android:id="@id/text_purchase_history_movie_name" android:layout_width="74.0dip" android:layout_height="wrap_content" android:drawablePadding="-20.0dip" />
+    <TextView android:gravity="center" android:id="@id/text_purchase_history_description" android:layout_width="60.0dip" android:layout_height="wrap_content" />
+    <TextView android:gravity="center" android:id="@id/text_purchase_history_point" android:layout_width="40.0dip" android:layout_height="wrap_content" />
+    <TextView android:gravity="center" android:id="@id/text_purchase_history_start" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" />
+    <TextView android:gravity="center" android:id="@id/text_purchase_history_end" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" />
+</LinearLayout>

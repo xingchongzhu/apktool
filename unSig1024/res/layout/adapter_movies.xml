@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/spacing_normal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/spacing_x_small" android:paddingEnd="@dimen/spacing_x_small"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView android:layout_gravity="center" android:id="@id/image_movie_cover" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/photo_poster_medium" android:scaleType="center" app:shapeAppearance="@style/AppTheme.Rounded" />
+    <TextView android:id="@id/text_movie_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" style="@style/TextMovieName" />
+    <TextView android:textAppearance="@style/TextAppearance.XSmall" android:id="@id/text_movie_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_normal" />
+</LinearLayout>

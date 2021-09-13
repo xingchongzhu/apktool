@@ -1,0 +1,28 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: 1024.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- png
+- jpg
+- res/YK.txt
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '19'
+  targetSdkVersion: '28'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  androidsupportmultidexversion.txt: '8'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.6.0
+versionInfo:
+  versionCode: '39'
+  versionName: '3.3'

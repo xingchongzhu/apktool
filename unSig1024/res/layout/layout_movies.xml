@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layout_movie_list" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar_movies" android:layout_width="0.0dip" android:layout_height="@dimen/toolbar_height" app:layout_constraintBottom_toTopOf="@id/recycler_movies" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/layout_toolbar_text_title" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_movies" android:layout_width="0.0dip" android:layout_height="0.0dip" android:paddingStart="@dimen/spacing_x_small" android:paddingEnd="@dimen/spacing_x_small" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar_movies" />
+    <ProgressBar android:id="@id/progress_movies" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar_movies" />
+</androidx.constraintlayout.widget.ConstraintLayout>
