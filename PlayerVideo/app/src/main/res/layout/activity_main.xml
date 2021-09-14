@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/RtlOverlay.Widget.AppCompat.ActionBar.TitleItem"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@id/action_bar_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="测试"
+        android:ellipsize="end"
+        android:singleLine="true" />
+</LinearLayout>

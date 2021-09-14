@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/dialog_payment_option" android:background="@color/color_primary" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/text_payment_title" android:layout_width="wrap_content" android:layout_height="44.0dip" android:paddingStart="@dimen/spacing_large" android:paddingEnd="@dimen/spacing_large" />
+    <ImageView android:layout_gravity="end|center|top" android:id="@id/image_paymenet_close" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/ic_chevron_down" android:scaleType="center" />
+    <View android:background="#ff3b3b3b" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="44.0dip" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_payment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="45.0dip" />
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tv91.features.shared.widget.DrawableTextView android:id="@id/bottom_menu_home" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/bottom_menu_home" android:layout_weight="1.0" app:drawableTint="@color/white_translucent_50" app:drawableTopCompat="@drawable/ic_home" style="@style/TextBottomMenu" />
+    <com.tv91.features.shared.widget.DrawableTextView android:id="@id/bottom_menu_category" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/bottom_menu_category" android:layout_weight="1.0" app:drawableTint="@color/white_translucent_50" app:drawableTopCompat="@drawable/ic_window" style="@style/TextBottomMenu" />
+    <com.tv91.features.shared.widget.DrawableTextView android:id="@id/bottom_menu_actress" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/bottom_menu_actress" android:layout_weight="1.0" app:drawableTint="@color/white_translucent_50" app:drawableTopCompat="@drawable/ic_woman" style="@style/TextBottomMenu" />
+    <com.tv91.features.shared.widget.DrawableTextView android:id="@id/bottom_menu_promotion" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/bottom_menu_promotion" android:layout_weight="1.0" app:drawableTint="@color/white_translucent_50" app:drawableTopCompat="@drawable/ic_star" style="@style/TextBottomMenu" />
+    <com.tv91.features.shared.widget.DrawableTextView android:id="@id/bottom_menu_profile" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/bottom_menu_profile" android:layout_weight="1.0" app:drawableTint="@color/white_translucent_50" app:drawableTopCompat="@drawable/ic_user" style="@style/TextBottomMenu" />
+</merge>

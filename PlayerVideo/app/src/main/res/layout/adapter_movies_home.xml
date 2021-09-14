@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_normal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/image_movie_cover" android:layout_width="fill_parent" android:layout_height="240.0dip" android:src="@drawable/photo_poster_large" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="240.0dip" android:src="@drawable/bg_blender_gradient" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:id="@id/text_movie_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="@dimen/spacing_normal" android:layout_marginEnd="@dimen/spacing_normal" app:layout_constraintBottom_toTopOf="@id/text_movie_date" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/TextMovieNameLarge" />
+    <TextView android:textAppearance="@style/TextAppearance.XXSmall" android:id="@id/text_movie_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spacing_x_small" android:layout_marginEnd="@dimen/spacing_normal" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

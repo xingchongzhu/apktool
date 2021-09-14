@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@id/text_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/spacing_small"
+        android:layout_marginEnd="@dimen/spacing_normal"
+        android:maxLines="1"
+        android:textAppearance="@style/TextAppearance.XSmall" />
+
+    <ImageView
+        android:id="@id/image_user_avatar"
+        android:layout_width="@dimen/icon_size_x_large"
+        android:layout_height="@dimen/icon_size_x_large"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/spacing_large"
+        android:layout_marginTop="@dimen/spacing_xx_large"
+        android:layout_marginBottom="@dimen/spacing_xx_large"
+        android:src="@drawable/photo_man" />
+
+    <TextView
+        android:id="@id/text_user_nickname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/image_user_avatar"
+        android:layout_marginStart="@dimen/spacing_large"
+        android:layout_marginTop="2.0dip"
+        android:layout_toEndOf="@id/image_user_avatar"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:textAppearance="@style/AppTheme.Navigation.TextAppearance"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@id/button_user_login"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/divider_vip"
+        android:layout_below="@id/text_user_nickname"
+        android:layout_marginStart="@dimen/spacing_large"
+        android:layout_toEndOf="@id/image_user_avatar"
+        android:gravity="top"
+        android:paddingTop="@dimen/spacing_x_small"
+        android:text="@string/profile_button_login"
+        android:textAppearance="@style/TextAppearance.Inverse.Small" />
+
+    <TextView
+        android:id="@id/text_user_point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_user_nickname"
+        android:layout_alignBottom="@id/image_user_avatar"
+        android:layout_marginStart="@dimen/spacing_large"
+        android:layout_toEndOf="@id/image_user_avatar"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:textAppearance="@style/AppTheme.Navigation.TextAppearance.Small" />
+
+    <ImageView
+        android:id="@id/image_user_point_refresh"
+        android:layout_width="@dimen/icon_size_large"
+        android:layout_height="@dimen/icon_size_large"
+        android:layout_alignBottom="@id/image_user_avatar"
+        android:layout_marginStart="@dimen/spacing_small"
+        android:layout_toEndOf="@id/text_user_point"
+        android:scaleType="matrix"
+        android:src="@drawable/ic_refresh"
+        android:translationY="17.0dip" />
+
+    <View
+        android:id="@id/divider_vip"
+        android:layout_width="fill_parent"
+        android:layout_height="2.0dip"
+        android:layout_below="@id/image_user_avatar"
+        android:background="@color/white_translucent_12" />
+
+    <LinearLayout
+        android:id="@id/layout_vip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider_vip"
+        android:background="@color/black_translucent_38"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_large"
+            android:layout_marginTop="@dimen/spacing_normal"
+            android:layout_marginEnd="@dimen/spacing_normal"
+            android:layout_marginBottom="@dimen/spacing_normal"
+            android:src="@drawable/ic_crown" />
+
+        <TextView
+            android:id="@id/text_vip_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2.0dip"
+        android:layout_below="@id/layout_vip"
+        android:layout_marginBottom="@dimen/spacing_large"
+        android:background="@color/black_translucent_50" />
+</RelativeLayout>

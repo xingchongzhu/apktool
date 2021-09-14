@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:background="@color/black_translucent_50" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/vr_rewind" android:background="@null" android:layout_width="@dimen/icon_size_large" android:layout_height="@dimen/icon_size_large" android:src="@drawable/exo_controls_rewind" />
+    <ImageButton android:id="@id/vr_play_pause" android:background="@null" android:layout_width="@dimen/icon_size_large" android:layout_height="@dimen/icon_size_large" />
+    <ImageButton android:id="@id/vr_fast_forward" android:background="@null" android:layout_width="@dimen/icon_size_large" android:layout_height="@dimen/icon_size_large" android:src="@drawable/exo_controls_fastforward" />
+    <TextView android:textStyle="bold" android:id="@id/vr_position" android:paddingLeft="@dimen/spacing_x_small" android:paddingRight="@dimen/spacing_x_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+    <SeekBar android:id="@id/vr_progress" android:focusable="false" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="?android:progressBarStyleHorizontal" />
+    <TextView android:textStyle="bold" android:id="@id/vr_duration" android:paddingLeft="@dimen/spacing_x_small" android:paddingRight="@dimen/spacing_x_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+</LinearLayout>
